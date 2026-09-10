@@ -69,7 +69,7 @@ a hyperexcitable regime.
 ## Repository
 
 ```
-notebooks/wilson_cowan.ipynb    model, phase plane, stability analysis, sliders
+wilson_cowan.ipynb    model, phase plane, stability analysis, sliders
 report.pdf                      full write-up
 figures/                        phase planes, time courses, stability heatmaps
 ```
