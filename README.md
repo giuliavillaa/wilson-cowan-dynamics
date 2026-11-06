@@ -1,9 +1,9 @@
-# Wilson–Cowan mean-field dynamics
+# Wilson-Cowan mean-field dynamics
 
 Dynamical analysis of neural population activity: where the balance between excitation
 and inhibition moves a network from stable equilibrium into sustained oscillation.
 
-Brain Modeling course, BSc in Artificial Intelligence — University of Pavia,
+Brain Modeling course, BSc in Artificial Intelligence, University of Pavia,
 University of Milano-Bicocca, University of Milan.
 
 Team project with Federica Latorre, Francesca Mustica and Alessandro Tesi.
@@ -15,7 +15,7 @@ Team project with Federica Latorre, Francesca Mustica and Alessandro Tesi.
 ## Model
 
 Mean-field theory describes a large neural population through its average activity
-rather than individual neurons. The Wilson–Cowan model reduces the network to two
+rather than individual neurons. The Wilson-Cowan model reduces the network to two
 coupled differential equations, one for the firing rate of the excitatory population
 and one for the inhibitory:
 
@@ -33,7 +33,7 @@ intersections located numerically to find fixed points, vector field and traject
 plotted from multiple initial conditions.
 
 **Stability.** The Jacobian evaluated at each fixed point; stability read from the
-maximum real part of its eigenvalues — negative for return to equilibrium, positive for
+maximum real part of its eigenvalues: negative for return to equilibrium, positive for
 divergence.
 
 **Parameter sweeps.** Synaptic weights (w_EE, w_EI, w_IE, w_II), external input
@@ -60,10 +60,10 @@ change their stability.
   region.
 
 At certain parameter values the trajectory converges to a closed orbit rather than a
-fixed point — a limit cycle, which corresponds to a sustained neural oscillation.
+fixed point: a limit cycle, which corresponds to a sustained neural oscillation.
 
 The same framework is used to model seizure onset, where a small shift in the
-excitation–inhibition balance crosses a bifurcation and the network moves abruptly into
+excitation-inhibition balance crosses a bifurcation and the network moves abruptly into
 a hyperexcitable regime.
 
 ## Repository
